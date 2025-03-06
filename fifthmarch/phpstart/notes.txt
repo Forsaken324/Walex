@@ -1,0 +1,20 @@
+in php, the keywords if else while and echo are not case sensitive
+
+// in php, variables can be declared anywhere in the script, the scope of a variable is the part of the script where the variable can be referenced or used
+
+the scopes are
+
+local, global, static
+
+// the print can also be used as echo, the print function only takes one argument. echo is marginall faster than print, print returns a value of 1 while echo 
+// does not return any value.
+
+// if your are displaying variables, you have to enclose them in double quotes, if you enclose them in single quotes, you will have to make use of string interpolation to
+print out the variables
+
+// a constant is an identifier for a simple value, constants cannot be changed during the script
+
+a valid constant name starts with a letter or underscore, but no constant name
+
+
+Create A PHP constant

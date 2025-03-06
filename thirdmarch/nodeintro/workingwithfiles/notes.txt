@@ -1,0 +1,26 @@
+You can install packages for nodejs using the npm package manager
+
+npm install <package name>
+
+to save the package to your package.json file, where you have all your dependencies, you can use the -S flag
+
+the difference between devDependencies and dependencies is that the former contains development tools such as testing packages, while the other is bundled with the application during production.
+
+As for the optionalDependencies the difference is that build failure of the dependency will not cause installation to fail. But its your programs responsibility to handle the lack of the dependency.
+
+you can update a package using the command 
+
+npm update
+
+you can install a specific version by running
+
+npm install packagename@version
+
+
+Profiling a Nodejs application
+
+Profiling a Nodejs application involves mearsuring its performance by analyzing the CPU, memory, and other runtime metrics while the application is running.
+
+
+When working with responses, when the response from the http header is supposed to be displayed as html, use the writeHead function.
+
