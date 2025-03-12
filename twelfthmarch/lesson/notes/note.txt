@@ -1,0 +1,5 @@
+?. stands for optional chaining in javascript, e.g userData?.currentsong
+
+It is saying, if userdata exists, access the current song object
+
+textContent allows you to retrieve the text content of an HTML element.

@@ -1,0 +1,5 @@
+The application is a single instance, 
+Since you already know python, and your are using it to build backend, dont learn another framework, rather learn a frontend framework 
+this will be something that will help in the long run, knowing one frontend and one backend.
+
+What is docker compose?
